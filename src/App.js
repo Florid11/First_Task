@@ -1,4 +1,4 @@
-
+import list from "../src/components/list";
 
 function App() {
 const comp =[
@@ -48,10 +48,78 @@ const comp =[
     description: "Can the domain be used as your company addres?"
   }
 ]
+
+  const employees =[
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+    {
+      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      name: 'Kevin joe',
+      date: '3.1.0 (20/05/2015)',
+      job: 'Fix',
+      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+    },
+  ]
+
   return (
     <div className="app">
-      {comp.map((components) => {
-            return(
+      <div className='first-div'>
+        {comp.map((components) => {
+          return(
               <div className='box'>
                 <img src={components.image} alt="Logo" className='Logo' />
                 <div>
@@ -59,8 +127,17 @@ const comp =[
                   <p>{components.description}</p>
                 </div>
               </div>
-            );
-      })}
+          );
+        })}
+      </div>
+      <div >
+        {employees.map((employee =>
+                <list profilePicture={employee.profilePic} name={employee.name} date={employee.date} job={employee.job} decription={employee.description}/>
+        ))}
+        <list />
+      </div>
+
+
     </div>
   );
 }
