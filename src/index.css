@@ -18,12 +18,13 @@ body{
 }
 
 .box {
-
+    display: flex;
     width: 28%;
     flex: 3 1 auto;
     padding: 1%;
     margin: 2%;
 }
+
 
 
 .Logo{
@@ -38,6 +39,7 @@ body{
 }
 
 .box p{
+    align-items: center;
     color: grey;
     padding-top: 4px;
 }
