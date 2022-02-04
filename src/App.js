@@ -1,4 +1,5 @@
-import list from "../src/components/list";
+import React from "react";
+import List from '../src/components/list'
 
 function App() {
 const comp =[
@@ -132,7 +133,7 @@ const comp =[
       </div>
       <div >
         {employees.map((employee =>
-                <list profilePicture={employee.profilePic} name={employee.name} date={employee.date} job={employee.job} decription={employee.description}/>
+                <List profilePicture={employee.profilePic} name={employee.name} date={employee.date} job={employee.job} decription={employee.description}/>
         ))}
         <list />
       </div>
