@@ -5,13 +5,13 @@ const List = (props) => {
   return(
       <div className={classes.layout}>
           <div>
-              <h3 className={classes.header}>{props.date}</h3>
-              <div>
+              <h4 >{props.date}</h4>
+              <div className={classes.heading}>
                   <p className={classes.btn}>{props.job}</p>
                   <p className={classes.img}>{props.image}</p>
-                  <h3 className={classes.header}>{props.name}</h3>
+                  <h4 >{props.name}</h4>
               </div>
-                <div>
+                <div className={classes.description}>
                     {props.decription}
                 </div>
               <div>
