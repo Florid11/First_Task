@@ -63,14 +63,14 @@ const comp =[
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally. New Share options and menagement. New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
       profilePic: 'https://picsum.photos/seed/picsum/200/300',
-      name: 'Improvement',
+      name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
+      job: 'Improvement',
+      description: 'Added Settings for Auto Start. Added Update Notification. Speed Optimization. Bug Fixes'
     },
     {
       profilePic: 'https://picsum.photos/seed/picsum/200/300',
@@ -84,14 +84,14 @@ const comp =[
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally. New Share options and menagement. New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
       profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Improvement',
-      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
+      description: 'Added Settings for Auto Start. Added Update Notification. Speed Optimization. Bug Fixes'
     },
     {
       profilePic: 'https://picsum.photos/seed/picsum/200/300',
@@ -105,14 +105,14 @@ const comp =[
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally. New Share options and menagement. New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
       profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Improvement',
-      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
+      description: 'Added Settings for Auto Start. Added Update Notification. Speed Optimization. Bug Fixes'
     },
   ]
 
