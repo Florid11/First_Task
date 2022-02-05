@@ -8,7 +8,7 @@ const List = (props) => {
               <h4 >{props.date}</h4>
               <div className={classes.heading}>
                   <p className={classes.btn}>{props.job}</p>
-                  <p className={classes.img}>{props.image}</p>
+                  <p className={classes.img}>{props.profilePicture}</p>
                   <h4 >{props.name}</h4>
               </div>
                 <div className={classes.description}>
