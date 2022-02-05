@@ -52,67 +52,67 @@ const comp =[
 
   const employees =[
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      job: 'New',
+      description: 'File system changed from Dokan to CBFS Host Cloud Drive is now a network drive Various bug fixes stability improvements Share permissions re-design and optimization'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
-      name: 'Kevin joe',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
+      name: 'Improvement',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      job: 'New',
+      description: 'File system changed from Dokan to CBFS Host Cloud Drive is now a network drive Various bug fixes stability improvements Share permissions re-design and optimization'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      job: 'Improvement',
+      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      job: 'New',
+      description: 'File system changed from Dokan to CBFS Host Cloud Drive is now a network drive Various bug fixes stability improvements Share permissions re-design and optimization'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
       job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      description: 'Introducing Host Cloud Drive - virtual drive functionally{"\n"}New Share options and menagement{"\n"}New, more user friendly design Sync optimizations Various perfomance improvements and bug fixes'
     },
     {
-      profilePic: 'https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+      profilePic: 'https://picsum.photos/seed/picsum/200/300',
       name: 'Kevin joe',
       date: '3.1.0 (20/05/2015)',
-      job: 'Fix',
-      description: 'Introducing Host Cloud Drive - virtual drive functionally'
+      job: 'Improvement',
+      description: 'Added Settings for Auto Start{"\n"}Added Update Notification{"\n"}Speed Optimization{"\n"}Bug Fixes'
     },
   ]
 
