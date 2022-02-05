@@ -123,8 +123,8 @@ const comp =[
           return(
               <div className='box'>
                 <img src={components.image} alt="Logo" className='Logo' />
+                <h3>{components.title}</h3>
                 <div>
-                  <h3>{components.title}</h3>
                   <p>{components.description}</p>
                 </div>
               </div>

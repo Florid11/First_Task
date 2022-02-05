@@ -16,15 +16,24 @@ body{
     border-radius: 10px;
     box-shadow: 1px 1px 1px lightgray;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .heading {
-    display: block;
-    align-content:space-around;
+    display: flex;
     margin: 15px 0px;
+    flex-wrap: wrap;
 }
 
-.btn{
+.heading h4{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.btn,
+.btn_g,
+.btn_p{
     display: inline-block;
     border: 1px solid #1DA1F2;
     color: #ffffff;
@@ -34,39 +43,32 @@ body{
     text-align:center;
     padding: 2px;
     border-radius: 5px;
+    margin-right: 90px;
 }
 
 .btn_g{
-    display: inline-block;
     border: 1px solid limegreen;
-    color: #ffffff;
     background-color: limegreen;
-    width: 6rem;
-    height: 1.5rem;
-    text-align:center;
-    padding: 2px;
-    border-radius: 5px;
 }
 
 .btn_p{
-    display: inline-block;
     border: 1px solid mediumpurple;
-    color: #ffffff;
     background-color: mediumpurple;
     width: 8rem;
-    height: 1.5rem;
-    text-align:center;
-    padding: 2px;
-    border-radius: 5px;
+
 }
 
 .img {
-
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .description{
     color: gray;
     margin-top: 15px;
+    height: 115px;
 }
 
 .btn_down{
@@ -76,7 +78,7 @@ body{
     background-color: #ffffff;
     padding: 11px 32px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-left: 28%;
 }
 
 .btn_down:hover{
