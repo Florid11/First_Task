@@ -1,0 +1,10 @@
+.layout{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 20%;
+    float: left;
+    margin: 2% 5%;
+    border: 1px solid black;
+}
