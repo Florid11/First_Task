@@ -85,3 +85,57 @@ body{
     color: #ffffff;
     background-color: #1DA1F2;
 }
+
+@media all and (max-width: 1328px) {
+    .layout{
+        width: 38%;
+        margin-left: 8%;
+    }
+}
+@media all and (max-width: 864px){
+    .layout{
+        height: 24rem;
+    }
+
+    .btn_down{
+        margin-top: 4rem;
+        margin-left: 23%;
+    }
+
+    .btn,
+    .btn_g,
+    .btn_p{
+        margin-bottom: 5px;
+    }
+}
+
+@media all and (max-width: 716px){
+
+    .layout{
+        height: 26rem;
+        width: 40%;
+    }
+
+}
+
+@media all and (max-width: 672px){
+    .layout{
+        width: 76%;
+    }
+
+    .btn_down{
+        margin-left: 32%;
+        margin-top: 25%;
+    }
+}
+
+
+@media all and (max-width: 595px){
+    .layout{
+        width: 82%;
+    }
+
+    .btn_down{
+        margin-left: 28%;
+    }
+}
