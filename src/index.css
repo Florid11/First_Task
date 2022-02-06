@@ -44,5 +44,15 @@ body{
     padding-top: 4px;
 }
 
+@media all and (max-width: 882px){
+    .box{
+        width: 38%;
+    }
+}
 
+@media all and (max-width: 595px){
+    .box{
+        width: 76%;
+    }
+}
 
